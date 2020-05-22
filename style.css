@@ -5,7 +5,7 @@
 }
 
 .box {
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .boxes {
@@ -14,16 +14,31 @@
 
 .box1 {
   background: rgb(201, 92, 92);
+  grid-area: box1;
 }
 .box2 {
   background: rgb(16, 57, 104);
+  grid-area: box2;
 }
 .box3 {
   background: rgb(39, 141, 44);
+  grid-area: box3;
 }
 .box4 {
   background: rgb(141, 105, 52);
+  grid-area: box4;
 }
 .box5 {
   background: rgb(56, 14, 42);
+  grid-area: box5;
+}
+
+/* Parent */
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    'box2 . box1'
+    'box4 box3 box5';
 }
