@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 5rem;
+}
+
+.boxes {
+  border: 1rem solid rgb(141, 138, 138);
+}
+
+.box1 {
+  background: rgb(201, 92, 92);
+}
+.box2 {
+  background: rgb(16, 57, 104);
+}
+.box3 {
+  background: rgb(39, 141, 44);
+}
+.box4 {
+  background: rgb(141, 105, 52);
+}
+.box5 {
+  background: rgb(56, 14, 42);
+}
